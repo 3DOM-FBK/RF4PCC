@@ -65,7 +65,7 @@ def train_model(X_train, Y_train, n_estimators, max_depth, n_jobs):
     model.fit(X_train[:, feat_to_use], Y_train)         # Use only the specified features. 
     return model
 
-def write_classification(X_test, Y_test_pred, filename):
+def write_classification(X, Y, filename):
     ''' Write a classified point cloud as a .txt file
 
         Attributes:
@@ -75,10 +75,10 @@ def write_classification(X_test, Y_test_pred, filename):
     '''
     with open('{}.txt'.format(filename), 'w') as out:
         X = X.tolist()
-        Y_pred = Y.tolist()
+        Y = Y.tolist()
         for index, x in enumerate(X):
             x_as_str = " ".join([str(i) for i in x])
-            out.write('{} {}\n'.format(x_as_str, str(Y_pred[index])))
+            out.write('{} {}\n'.format(x_as_str, str(Y[index])))
 
 def save_model(model, filename):
     ''' Save the trained machine learning model as .pkl file

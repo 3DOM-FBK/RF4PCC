@@ -56,10 +56,10 @@ def write_classification(X, Y, filename):
     '''
     with open('{}.txt'.format(filename), 'w') as out:
         X = X.tolist()
-        Y_pred = Y.tolist()
+        Y = Y.tolist()
         for index, x in enumerate(X):
             x_as_str = " ".join([str(i) for i in x])
-            out.write('{} {}\n'.format(x_as_str, str(Y_pred[index])))
+            out.write('{} {}\n'.format(x_as_str, str(Y[index])))
 
 def main():
     parser = argparse.ArgumentParser(description='Classify a point cloud with a random forest model.')
