@@ -25,7 +25,7 @@ Python3 and Scikit-learn
 ### 3.  **Test file:** the rest of your dataset with the same features, in the same order
 ### 4.  **Feature and class index file:** create a two-lines file, the first line is dedicated to the column index of the features that you are using, the second line is for the column which contain the class index.
 
-   For example,considering the following distribution of the point cloud columns 
+   For example, considering the following distribution of the point cloud columns 
    ### x y z r g b f1 f2 f3 class_index 
    ### if you want to use f1 f2 f3 as features the txt file will be :  
    Line_1: 6 7 8 	
@@ -36,7 +36,7 @@ All the files have to be save in **.txt** format, and **without header** (Traini
 
 
 ## **How to run** 
-After you have prepared the aforementhioned files, collect them in a folder together with the train.py and classify.py files. 
+After you have prepared the aforementioned files, collect them in a folder together with the train.py and classify.py files. 
 
 At a command prompt run:
 
@@ -44,32 +44,32 @@ At a command prompt run:
 
 This should result in the creation of:
 -  your classifier model **.pkl**. The name of this file will be related to the number of random trees that performed the best classification (i.e. ne50none.pkl). 
-- a new .txt file containig the evaluation dataset with a new column with the predicted classes 
+- a new .txt file containing the evaluation dataset with a new column with the predicted classes 
 
 To extend the classification to the test dataset at a command prompt run:
 
 > $ python classify.py feature_path classifier_path test_path file_to_save_name
 
-This should result in the creation of your test file classified (the predicted classes are saved as last column after the features)
+This should result in the creation of your test file classified (the predicted classes are saved as the last column after the features)
 
 ## **Dataset for testing the code**
 
-If you want to rapidly test our classification code on a heritage case study you can download the four aforementhioned datasets from this [Microsoft teams folder](https://fbk.sharepoint.com/:f:/r/sites/3DOM/Shared%20Documents/GitHub_Classification/Dataset?csf=1&web=1&e=On1oaH) 
+If you want to rapidly test our classification code on a heritage case study you can download the four aforementioned datasets from this [Google Drive folder](https://drive.google.com/drive/folders/1AAUKtw_m35L_LQshM644xxo_4auav9Vq?usp=sharing) 
 
 ![Basilica in Paestum](./docs/basilica.png)
 
 ## **Pretrained models**
 
-Refering to the following article: 
+Referring to the following article: 
 
 Grilli, E.; Remondino, F. Machine Learning Generalisation across Different 3D Architectural Heritage. ISPRS Int. J. Geo-Inf. 2020, 9, 379.  https://doi.org/10.3390/ijgi9060379
 
-you can find and **try our pre-trained models** for architectural classification at this [Microsoft teams folder](https://fbk.sharepoint.com/:f:/r/sites/3DOM/Shared%20Documents/GitHub_Classification/Models?csf=1&web=1&e=3FsBzw)
+you can find and **try our pre-trained models** for architectural classification at this [Google Drive folder](https://drive.google.com/drive/folders/1xMGM-gkhmgmEqmE1H9Wx5OG0twKNOpho?usp=sharing)
 
 ![Generalise across different datasets](./docs/generalise.png)
 
 ## **Citation**
 
-If you decide to try our code or trained models we would be please if you cite us: 
+If you decide to try our code or trained models we would be pleased if you cite us: 
 
 > Grilli, E.; Remondino, F. Machine Learning Generalisation across Different 3D Architectural Heritage. ISPRS Int. J. Geo-Inf. 2020, 9, 379.
