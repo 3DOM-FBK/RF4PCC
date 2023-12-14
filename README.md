@@ -54,7 +54,7 @@ This should result in the creation of your test file classified (the predicted c
 
 ## **Dataset for testing the code**
 
-If you want to rapidly test our classification code on a heritage case study you can download the four aforementhioned datasets from this [Google drive folder](https://drive.google.com/drive/folders/1z-f-QfzgEkjsMrdwCsBll0PcqNs6EGYr?usp=sharing) 
+If you want to rapidly test our classification code on a heritage case study you can download the four aforementhioned datasets from this [Microsoft teams folder](https://fbk.sharepoint.com/:f:/r/sites/3DOM/Shared%20Documents/GitHub_Classification/Dataset?csf=1&web=1&e=On1oaH) 
 
 ![Basilica in Paestum](./docs/basilica.png)
 
@@ -64,7 +64,7 @@ Refering to the following article:
 
 Grilli, E.; Remondino, F. Machine Learning Generalisation across Different 3D Architectural Heritage. ISPRS Int. J. Geo-Inf. 2020, 9, 379.  https://doi.org/10.3390/ijgi9060379
 
-you can find and **try our pre-trained models** for architectural classification at this [Google drive folder](https://drive.google.com/drive/folders/1ndjppIBDixGM-Liq8dPH97XKYTSBpwzW?usp=sharing)
+you can find and **try our pre-trained models** for architectural classification at this [Microsoft teams folder](https://fbk.sharepoint.com/:f:/r/sites/3DOM/Shared%20Documents/GitHub_Classification/Models?csf=1&web=1&e=3FsBzw)
 
 ![Generalise across different datasets](./docs/generalise.png)
 
