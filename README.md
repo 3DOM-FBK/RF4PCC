@@ -3,7 +3,7 @@ The following code has been developed, starting from the scikit-learn libraries,
 
 ![3d classification](./docs/classification.png)
 
-### **Reference**
+## **References**
 
 Grilli, E.; Remondino, F. Machine Learning Generalisation across Different 3D Architectural Heritage. ISPRS Int. J. Geo-Inf. 2020, 9, 379. https://doi.org/10.3390/ijgi9060379
 
@@ -13,14 +13,14 @@ Grilli, E., Farella, E. M., Torresani, A., and Remondino, F.: GEOMETRIC FEATURES
 Python3 and Scikit-learn
 
 ## **Requirements** 
-### 1.  **Training file:** a portion of your point cloud with associated geometric and/or radiometric features and a class index (coming after the manual annotation)
-### 2. **Evaluation file:** another portion of the point cloud with the same features in the same order and again the manually annotated class index (the classifier will use this file to evaluate the performance of the classification).
-### 3.  **Test file:** the rest of your dataset with the same features, in the same order
-### 4.  **Feature and class index file:** create a two-lines file, the first line is dedicated to the column index of the features that you are using, the second line is for the column which contain the class index.
+ 1.  **Training file:** a portion of your point cloud with associated geometric and/or radiometric features and a class index (coming after the manual annotation)
+ 2. **Evaluation file:** another portion of the point cloud with the same features in the same order and again the manually annotated class index (the classifier will use this file to evaluate the performance of the classification).
+ 3.  **Test file:** the rest of your dataset with the same features, in the same order
+ 4.  **Feature and class index file:** create a two-lines file, the first line is dedicated to the column index of the features that you are using, the second line is for the column which contain the class index.
 
    For example, considering the following distribution of the point cloud columns 
-   ### x y z r g b f1 f2 f3 class_index 
-   ### if you want to use f1 f2 f3 as features the txt file will be :  
+    x y z r g b f1 f2 f3 class_index 
+    if you want to use f1 f2 f3 as features the txt file will be :  
    Line_1: 6 7 8 	
   
    Line_2: 9
