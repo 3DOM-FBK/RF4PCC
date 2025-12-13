@@ -3,18 +3,11 @@ The following code has been developed, starting from the scikit-learn libraries,
 
 ![3d classification](./docs/classification.png)
 
-## **Developer Contributors**
-
-- Alessandro Torresani
-
-### **Other contributors**
-
-- Eleonora Grilli
-- Fabio Remondino
-
-Grilli, E., Farella, E. M., Torresani, A., and Remondino, F.: GEOMETRIC FEATURES ANALYSIS FOR THE CLASSIFICATION OF CULTURAL HERITAGE POINT CLOUDS, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLII-2/W15, 541–548, https://doi.org/10.5194/isprs-archives-XLII-2-W15-541-2019, 2019.
+### **Reference**
 
 Grilli, E.; Remondino, F. Machine Learning Generalisation across Different 3D Architectural Heritage. ISPRS Int. J. Geo-Inf. 2020, 9, 379. https://doi.org/10.3390/ijgi9060379
+
+Grilli, E., Farella, E. M., Torresani, A., and Remondino, F.: GEOMETRIC FEATURES ANALYSIS FOR THE CLASSIFICATION OF CULTURAL HERITAGE POINT CLOUDS, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLII-2/W15, 541–548, https://doi.org/10.5194/isprs-archives-XLII-2-W15-541-2019, 2019.
 
 ## **Dependencies**
 Python3 and Scikit-learn
